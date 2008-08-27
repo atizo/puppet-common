@@ -16,9 +16,8 @@ installed before any of the other module.
 
 To use this module, follow these directions:
 
-1. Your modules directory will need all the files 
-   included in this repository placed under a directory 
-   called "common"
+1. Your modules directory will need all the files included in this repository placed
+   under a directory called "common"
 
 2. Add the following line to manifests/site.pp:
    

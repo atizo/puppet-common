@@ -63,9 +63,6 @@ define concatenated_file (
 		refreshonly => true,
 		subscribe => [ File[$dir_real] ],
 		before => File[$name],
-        refreshonly => true,
-        subscribe => [ File[$dir_real] ],
-        before => File[$name],
 		alias => [ "concat_${dir_real}"] ,
 	}
 }
